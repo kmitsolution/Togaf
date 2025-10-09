@@ -1,5 +1,3 @@
----
-
 ### 🧭  Business Principles, Business Goals, and Business Drivers
 
 **TOGAF ADM – Phase A: Architecture Vision**
