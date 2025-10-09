@@ -1,8 +1,6 @@
-Here are concise **study notes for pages 104–107** of *Palladio – Enterprise Architecture Foundation with TOGAF*, which correspond to **Lecture 27: Business Principles, Business Goals and Business Drivers** (ADM Phase A: Architecture Vision).
-
 ---
 
-### 🧭 Lecture 27: Business Principles, Business Goals, and Business Drivers
+### 🧭  Business Principles, Business Goals, and Business Drivers
 
 **TOGAF ADM – Phase A: Architecture Vision**
 
