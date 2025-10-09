@@ -97,4 +97,108 @@ Here's a structured and comprehensive summary of **TOGAF® ADM – Phase C: Appl
 
 ---
 
-Would you like a **visual reference chart** or a **template** to help document these artifacts for a project you're working on?
+Here's a comprehensive summary of **TOGAF® ADM – Phase C: Data Architecture – Artifacts**, based on your input and TOGAF guidance. This will help clarify **what each artifact is**, **why it matters**, and **how it's used** in the context of developing the **Data Architecture**.
+
+---
+
+# 🧱 ADM – Phase C: Data Architecture – Artifacts
+
+### 🔍 **Purpose**
+
+To develop the **Baseline** and **Target Data Architectures**, identifying:
+
+* The **structure and flow of data** across the enterprise
+* How data supports **business functions**
+* Any **gaps** between current and future data capabilities
+* Inputs for the **Architecture Roadmap**
+
+---
+
+## ✅ **TOGAF Steps in Phase C (Data & Application Architecture)**
+
+1. **Select reference models, viewpoints, and tools**
+2. **Develop Baseline Architecture**
+3. **Develop Target Architecture**
+4. **Perform Gap Analysis**
+5. **Define Candidate Roadmap Components**
+6. **Resolve impacts across the Architecture Landscape**
+
+---
+
+## 📚 **Key Artifact Categories for Data Architecture**
+
+### 🔸 **Catalogs**
+
+Catalogs are inventories or lists of data entities or components.
+
+| Artifact                               | Description                                                                                                                                                                  |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Data Entity/Data Component Catalog** | List of data entities or components used within the organization. May include metadata, ownership, lifecycle, source, and usage. Forms the foundation for other data models. |
+
+---
+
+### 🔹 **Matrices**
+
+Matrices show relationships between data and other architecture components.
+
+| Artifact                                 | Description                                                                                                                                       |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Application/Data Matrix**              | Maps which applications **create**, **read**, **update**, or **delete** which data entities. Supports data ownership and access control analysis. |
+| **Data Entity/Business Function Matrix** | Maps logical data components to business functions. Helps validate that all business activities are properly supported by data.                   |
+
+---
+
+### 🔷 **Diagrams**
+
+Diagrams provide visual representation of the data architecture and how it interacts with other architecture domains.
+
+| Artifact                       | Description                                                                                                                           |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Conceptual Data Diagram**    | High-level view showing core business entities and their relationships. Useful for communication with business stakeholders.          |
+| **Logical Data Diagram**       | More detailed than the conceptual view, showing data entities, attributes, relationships, and possibly normalization levels.          |
+| **Data Dissemination Diagram** | Illustrates how data is distributed, replicated, or accessed across applications, departments, or geographies.                        |
+| **Data Lifecycle Diagram**     | Shows the lifecycle stages (e.g., create, store, use, archive, delete) of key data entities. Important for governance and compliance. |
+| **Data Migration Diagram**     | Details how data will be migrated during transitions from current to target state architectures.                                      |
+| **Data Security Diagram**      | Identifies classification, access controls, and encryption for data entities. Critical for risk management and compliance.            |
+
+---
+
+### 📊 **Example: Application/Data Matrix**
+
+| Application    | Customer Data | Product Data | Payroll Data |
+| -------------- | ------------- | ------------ | ------------ |
+| CRM System     | R/W           | R            | -            |
+| ERP System     | R             | R/W          | R/W          |
+| Payroll System | -             | -            | R/W          |
+
+This matrix helps identify:
+
+* **Data duplication**
+* **Ownership issues**
+* **Potential integration points**
+
+---
+
+## 🧩 **Use of Data Architecture Artifacts**
+
+| Use Case                    | Supported By                                       |
+| --------------------------- | -------------------------------------------------- |
+| Data Ownership and Access   | Application/Data Matrix, Data Security Diagram     |
+| Business Alignment          | Data Entity/Business Function Matrix               |
+| Compliance and Retention    | Data Lifecycle Diagram, Data Security Diagram      |
+| Modernization and Migration | Data Migration Diagram, Logical Data Diagram       |
+| Data Governance             | Data Component Catalog, Data Dissemination Diagram |
+
+---
+
+## 📝 **Key Takeaways**
+
+* Start with **Catalogs** to inventory data assets.
+* Use **Matrices** to explore **data relationships** and application dependencies.
+* Use **Diagrams** to visualize **data structure, flow, lifecycle, and security**.
+* All artifacts should trace back to the **Business Architecture** (Phase B) and support the **Architecture Vision** (Phase A).
+* These artifacts feed into the **Gap Analysis** and **Architecture Roadmap** in later ADM phases.
+
+---
+
+
