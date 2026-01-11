@@ -1,5 +1,5 @@
 
-# 📘 **TOGAF Practitioner – Scenario-Based Questions**
+#  **TOGAF Practitioner – Scenario-Based Questions**
 
 ---
 
