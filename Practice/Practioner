@@ -1,0 +1,228 @@
+
+# 📘 **TOGAF Practitioner – Scenario-Based Questions**
+
+---
+
+## **Scenario 1: Choosing the Correct ADM Phase**
+
+### **Scenario**
+
+A retail organization has approved its Target Architecture. Multiple solution options exist, but budget and resource constraints mean not all can be implemented at once.
+
+### **Question**
+
+What should the architect do NEXT?
+
+A. Start implementation of the highest-value solution
+B. Govern implementation for compliance
+C. Identify and group changes into work packages and transition architectures
+D. Manage architecture change requests
+
+✅ **Correct Answer:** C
+**Why:** This is **Phase E – Opportunities & Solutions**.
+
+---
+
+## **Scenario 2: Phase F Decision Making**
+
+### **Scenario**
+
+Several work packages have been identified, but some depend on others and must be sequenced over 18 months.
+
+### **Question**
+
+Which activity is MOST appropriate?
+
+A. Architecture compliance review
+B. Prioritize and sequence work packages based on dependencies and value
+C. Update architecture principles
+D. Create a Solution Concept Diagram
+
+✅ **Correct Answer:** B
+**Why:** Sequencing and timing = **Phase F – Migration Planning**.
+
+---
+
+## **Scenario 3: Phase G vs Phase H**
+
+### **Scenario**
+
+During implementation, a development team proposes using a new cloud service that is not part of the approved Technology Architecture.
+
+### **Question**
+
+What should the Enterprise Architect do FIRST?
+
+A. Approve the change to avoid delays
+B. Trigger a new ADM cycle
+C. Raise an Architecture Change Request
+D. Update the Architecture Vision
+
+✅ **Correct Answer:** C
+**Why:** Deviation is **identified in Phase G**; change request is raised.
+
+---
+
+## **Scenario 4: Handling the Change Request**
+
+### **Scenario**
+
+The proposed cloud service affects security, cost, and compliance across multiple systems.
+
+### **Question**
+
+Which phase should formally assess and decide on this change?
+
+A. Phase F
+B. Phase G
+C. Phase H
+D. Phase D
+
+✅ **Correct Answer:** C
+**Why:** Impact assessment and decision = **Phase H**.
+
+---
+
+## **Scenario 5: Minor vs Major Change**
+
+### **Scenario**
+
+A UI color change is requested after go-live and does not affect architecture principles or target architecture.
+
+### **Question**
+
+What is the BEST action?
+
+A. Ignore the request
+B. Start a new ADM cycle
+C. Handle as a minor change within Phase H and update the repository
+D. Implement directly without governance
+
+✅ **Correct Answer:** C
+**Why:** Minor changes are still managed in **Phase H**, but lightly.
+
+---
+
+## **Scenario 6: Requirements Management**
+
+### **Scenario**
+
+A new regulatory requirement arrives after the solution has been deployed.
+
+### **Question**
+
+What happens FIRST?
+
+A. Restart Phase A
+B. Implement the requirement immediately
+C. Capture the requirement in Requirements Management
+D. Perform architecture compliance review
+
+✅ **Correct Answer:** C
+**Why:** All requirement changes go through **Requirements Management first**.
+
+---
+
+## **Scenario 7: Implementation Responsibility**
+
+### **Scenario**
+
+A stakeholder claims that Enterprise Architects should build and deploy the solution during Phase G.
+
+### **Question**
+
+What is the BEST response?
+
+A. Correct, architects implement solutions in Phase G
+B. Architects design and implement solutions
+C. Delivery teams implement; architects govern compliance
+D. Phase H teams implement solutions
+
+✅ **Correct Answer:** C
+**Why:** Phase G = **governance**, not implementation by architects.
+
+---
+
+## **Scenario 8: Transition Architecture Usage**
+
+### **Scenario**
+
+The organization must operate legacy and new systems in parallel for one year.
+
+### **Question**
+
+Which concept BEST describes this situation?
+
+A. Baseline Architecture
+B. Target Architecture
+C. Transition Architecture
+D. Solution Building Block
+
+✅ **Correct Answer:** C
+
+---
+
+## **Scenario 9: Architecture Roadmap**
+
+### **Scenario**
+
+Delivery teams want to change implementation order due to local convenience.
+
+### **Question**
+
+Which artifact should the architect use to challenge this?
+
+A. Architecture Vision
+B. Architecture Roadmap
+C. Business Capability Map
+D. Architecture Principles
+
+✅ **Correct Answer:** B
+
+---
+
+## **Scenario 10: ADM Restart Decision**
+
+### **Scenario**
+
+A merger introduces entirely new business capabilities and systems.
+
+### **Question**
+
+What is the MOST appropriate action?
+
+A. Update Technology Architecture only
+B. Handle as a minor change
+C. Trigger a new ADM cycle from Phase A or Preliminary
+D. Continue Phase G implementation
+
+✅ **Correct Answer:** C
+
+---
+
+## 🧠 **Practitioner Exam Strategy (Very Important)**
+
+In Practitioner:
+
+* **Multiple answers may look correct**
+* Choose the **BEST answer based on ADM intent**
+* Ask yourself:
+
+  * *Is this planning?* → Phase E/F
+  * *Is this governance?* → Phase G
+  * *Is this change?* → Phase H
+
+---
+
+## 🎯 Key Patterns to Remember
+
+| Keyword in Question     | Think                   |
+| ----------------------- | ----------------------- |
+| Options / Work packages | Phase E                 |
+| Timeline / Sequencing   | Phase F                 |
+| Compliance / Deviation  | Phase G                 |
+| Change / Impact         | Phase H                 |
+| New requirement         | Requirements Management |
+
+---
+
