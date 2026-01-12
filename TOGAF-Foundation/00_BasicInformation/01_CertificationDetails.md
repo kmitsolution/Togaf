@@ -2,6 +2,8 @@
 
 ---
 
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/22a19677-f603-45eb-ba13-cd5f993742e9" />
+
 ### **TOGAF® Architecture Foundation Certification – Introduction**
 
 The **TOGAF® Architecture Foundation certification**, part of The Open Group's certification program, validates that a candidate has acquired knowledge of the **basic concepts**, **core principles**, and **terminology** of **Enterprise Architecture** based on the **TOGAF® Standard, 10th Edition**.
