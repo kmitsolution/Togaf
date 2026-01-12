@@ -1,4 +1,4 @@
-**TOGAF® 9.2 or TOGAF Standard, Version 10 Foundation** course outline. This level (also called **TOGAF Part 1**) focuses on introducing the TOGAF framework, its key concepts, and terminology, and is designed for individuals seeking to become **TOGAF 9 Certified (Level 1)**.
+**TOGAF® 9.2 or TOGAF Standard, Version 10 Foundation and Practitioner** course outline. This level (also called **TOGAF Part 1**) focuses on introducing the TOGAF framework, its key concepts, and terminology, and is designed for individuals seeking to become **TOGAF 9 Certified (Level 1)**.
 
 ---
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/27da1ed0-0aa1-442a-bf7e-1af1a2c10660" />
