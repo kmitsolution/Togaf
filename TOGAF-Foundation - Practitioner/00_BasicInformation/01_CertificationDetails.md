@@ -184,3 +184,128 @@ When reading a question, ask:
 
 ---
 
+
+---
+
+# 📘 **TOGAF Combined Exam (Foundation + Practitioner) – Exam Pattern**
+
+The **TOGAF Combined exam** allows you to earn **both certifications** in a **single sitting**:
+
+* **TOGAF Foundation (Level 1)**
+* **TOGAF Practitioner (Level 2)**
+
+---
+
+## **1️⃣ Exam Structure (Two Sections in One Exam)**
+
+| Section    | Level                  | Questions                 | Duration       | Style                     |
+| ---------- | ---------------------- | ------------------------- | -------------- | ------------------------- |
+| **Part 1** | Foundation (Level 1)   | **40 MCQs**               | **60 minutes** | Knowledge-based           |
+| **Part 2** | Practitioner (Level 2) | **8 scenario-based MCQs** | **90 minutes** | Scenario & judgment-based |
+
+👉 **Total Duration:** **150 minutes (2.5 hours)**
+👉 **Total Questions:** **48**
+
+---
+
+## **2️⃣ Foundation (Level 1) – Exam Pattern**
+
+| Aspect           | Details                                 |
+| ---------------- | --------------------------------------- |
+| Questions        | 40                                      |
+| Time             | 60 minutes                              |
+| Question Type    | Multiple-choice (1 correct answer)      |
+| Scoring          | 1 mark per question                     |
+| Passing Score    | **60% (24/40)**                         |
+| Negative Marking | ❌ No                                    |
+| Focus            | TOGAF concepts, ADM phases, definitions |
+
+---
+
+## **3️⃣ Practitioner (Level 2) – Exam Pattern**
+
+| Aspect        | Details             |
+| ------------- | ------------------- |
+| Questions     | 8                   |
+| Time          | 90 minutes          |
+| Question Type | Scenario-based MCQs |
+| Scoring       | **Partial scoring** |
+| Maximum Score | 40 points           |
+| Passing Score | **60% (24/40)**     |
+| Open Book     | ❌ No                |
+
+### **Practitioner Scoring (Very Important)**
+
+| Answer Quality | Score        |
+| -------------- | ------------ |
+| Best answer    | **5 points** |
+| Second-best    | **3 points** |
+| Third-best     | **1 point**  |
+| Wrong          | **0 points** |
+
+📌 You don’t need all best answers to pass.
+
+---
+
+## **4️⃣ Passing Rules (Very Important)**
+
+* You must **pass BOTH sections**
+* Passing one does **not** compensate for failing the other
+* If you fail one section:
+
+  * Only that section needs to be retaken
+
+---
+
+## **5️⃣ Key Syllabus Focus (Combined Exam)**
+
+### **Foundation Focus**
+
+* TOGAF basics
+* ADM phases & purpose
+* BDAT architecture domains
+* Architecture artifacts & building blocks
+* Requirements Management
+
+### **Practitioner Focus**
+
+* Applying ADM in scenarios
+* Phase E, F, G, H decision making
+* Governance vs implementation
+* Minor vs major change
+* Architecture Roadmaps & Transition Architectures
+
+---
+
+## **6️⃣ Common Exam Traps (Combined Exam)**
+
+❌ “Phase H implements solutions”
+❌ “Architects build the solution”
+❌ “Minor changes skip Phase H”
+
+✅ Correct understanding:
+
+* Phase G → Govern implementation
+* Phase H → Manage change
+* Requirements Management → Continuous
+
+---
+
+## **7️⃣ One-Line Summary (Exam Ready)**
+
+**The TOGAF Combined exam tests both conceptual knowledge (Foundation) and practical application (Practitioner) in a single 150-minute exam.**
+
+---
+
+## 🎯 **Which Exam Should You Choose?**
+
+| Situation             | Recommendation                  |
+| --------------------- | ------------------------------- |
+| Beginner              | Foundation only                 |
+| Experienced architect | Combined                        |
+| Short on time         | Combined                        |
+| First TOGAF attempt   | Foundation → Practitioner later |
+
+---
+
+
