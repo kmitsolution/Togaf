@@ -1,17 +1,4 @@
- **Enterprise Architecture (EA)**, now enriched with authoritative insights from **ISO/IEC/IEEE standards**, including **TOGAF® definitions** from The Open Group.
-
----
-
-## 🏛️ **What is Enterprise Architecture (EA)?**
-
-**Enterprise Architecture (EA)** is a discipline that enables organizations to **align business strategy with IT infrastructure and operations**. It provides a **structured approach** for designing, planning, implementing, and governing enterprise transformation.
-
----
-
-### 🔍 Let’s Break It Down:
-
-To fully understand **Enterprise Architecture**, we must define two terms: **Enterprise** and **Architecture** — as defined by **ISO/IEC/IEEE** standards and the **TOGAF® Standard**.
-
+ 
 ---
 
 ### 🏢 **What is an Enterprise?**
