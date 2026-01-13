@@ -85,3 +85,183 @@ Architecture describes **what makes up a system**, **how the parts fit together*
 
 ---
 
+
+
+# 🏢 **Enterprise Architect (EA): Roles, Responsibilities & Organization Placement**
+
+---
+
+## 1️⃣ What is an Enterprise Architect?
+
+An **Enterprise Architect (EA)** is responsible for **aligning business strategy with IT strategy** by defining and governing the **enterprise-wide architecture**.
+
+👉 In simple words:
+**EA ensures the company builds the *right systems*, in the *right way*, to support business goals.**
+
+---
+
+## 2️⃣ Is Enterprise Architecture a Person or a Team?
+
+### ✅ **It can be BOTH**
+
+### 🔹 Small / Medium Organizations
+
+* Often **1–2 Enterprise Architects**
+* One person may handle:
+
+  * Business alignment
+  * Technology standards
+  * Governance
+
+### 🔹 Large Enterprises
+
+* **Enterprise Architecture is a TEAM or FUNCTION**
+* Common structure:
+
+  * Chief Architect / Head of EA
+  * Enterprise Architects
+  * Domain Architects (Business, Data, App, Tech)
+
+📌 **Enterprise Architecture is a capability, not just a job title**
+
+---
+
+## 3️⃣ Key Roles & Responsibilities of an Enterprise Architect
+
+### 🔹 Strategic Responsibilities
+
+* Align **business strategy ↔ IT strategy**
+* Translate business goals into **architecture direction**
+* Support digital transformation initiatives
+
+---
+
+### 🔹 Architecture Responsibilities
+
+* Define **Baseline, Target, and Transition Architectures**
+* Maintain **enterprise-wide standards and principles**
+* Own the **Architecture Roadmap**
+
+---
+
+### 🔹 Governance Responsibilities
+
+* Govern solution implementation (TOGAF Phase G)
+* Conduct **architecture compliance reviews**
+* Approve or reject deviations
+* Participate in **Architecture Board**
+
+---
+
+### 🔹 Change & Evolution Responsibilities
+
+* Manage architecture change (TOGAF Phase H)
+* Assess impact of new requirements
+* Decide when to start a new ADM cycle
+
+---
+
+### 🔹 Collaboration Responsibilities
+
+* Work with:
+
+  * Business leaders
+  * Solution Architects
+  * Program / Portfolio Managers
+  * Security & Compliance teams
+
+---
+
+## 4️⃣ What EA Does NOT Do (Important)
+
+❌ Does NOT write application code
+❌ Does NOT manage day-to-day projects
+❌ Does NOT replace Solution Architects
+❌ Does NOT run IT operations
+
+👉 EA **guides and governs**, not builds.
+
+---
+
+## 5️⃣ Where Does Enterprise Architecture Sit in the Organization?
+
+### ✅ **Typical Placement (Most Common)**
+
+```
+CEO
+ │
+CIO / CTO
+ │
+Enterprise Architecture Function
+ │
+Enterprise Architects
+```
+
+---
+
+### 🔹 Other Possible Placements (Depending on Org)
+
+#### 📌 Under CIO / CTO (Most Common)
+
+* Strong IT governance
+* Good alignment with delivery teams
+
+#### 📌 Under Strategy / Transformation Office
+
+* Strong business alignment
+* Used during large transformations
+
+#### 📌 As a Central Shared Service
+
+* Supports all business units
+* Common in large enterprises
+
+---
+
+## 6️⃣ EA vs Other Architecture Roles (Quick Clarity)
+
+| Role                  | Focus                       |
+| --------------------- | --------------------------- |
+| Enterprise Architect  | Enterprise-wide, long-term  |
+| Solution Architect    | Project / solution-specific |
+| Application Architect | Application landscape       |
+| Data Architect        | Data & information          |
+| Technology Architect  | Infrastructure & platforms  |
+
+---
+
+## 7️⃣ Real-World Example
+
+**Company:** Large Bank
+
+* EA Team defines:
+
+  * Cloud strategy
+  * Security standards
+  * Integration principles
+* Solution Architects:
+
+  * Design specific banking applications
+* Dev teams:
+
+  * Build and deploy
+
+📌 EA ensures **all solutions align with the same vision**.
+
+---
+
+## 8️⃣ Exam / Interview One-Line Answer
+
+**An Enterprise Architect aligns business and IT strategy by defining and governing enterprise-wide architecture, typically operating as a centralized function under the CIO or transformation office.**
+
+---
+
+## 9️⃣ Key Takeaways (Very Important)
+
+* ✅ EA is often a **team**, not just one person
+* ✅ EA focuses on **strategy, governance, and alignment**
+* ✅ EA usually reports under **CIO / CTO / Strategy Office**
+* ❌ EA does not implement solutions
+
+---
+                                                     
