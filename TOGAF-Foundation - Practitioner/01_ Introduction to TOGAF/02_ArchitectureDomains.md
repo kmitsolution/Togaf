@@ -132,48 +132,6 @@ Here’s a **clean visual representation** of the **BDAT domains** in a simple s
 Each domain supports the one above it.
 
 ---
-
-## 📇 **Flashcard-Style Breakdown for BDAT**
-
-You can use these as **printable study cards** or digital slides.
-
----
-
-### **Flashcard 1: Business Architecture**
-
-* **Definition:** Describes business strategy, governance, capabilities, and key processes.
-* **Answers:** What does the business need and how is it organized?
-* **Key Focus:** Goals, processes, org structure, business services.
-
----
-
-### **Flashcard 2: Data Architecture**
-
-* **Definition:** Describes structure and governance of data (conceptual, logical, physical).
-* **Answers:** What data is needed, how is it structured, and how is it managed?
-* **Key Focus:** Data models, governance, master data, metadata.
-
----
-
-### **Flashcard 3: Application Architecture**
-
-* **Definition:** Provides blueprint for applications and their interactions with business processes.
-* **Answers:** What applications support the business? How do they interact?
-* **Key Focus:** App portfolio, integration, services, interfaces.
-
----
-
-### **Flashcard 4: Technology Architecture**
-
-* **Definition:** Defines the software/hardware infrastructure to support data and applications.
-* **Answers:** What infrastructure enables apps and data to run securely and efficiently?
-* **Key Focus:** Networks, servers, cloud, platforms, middleware, standards.
-
----
-
-
-Thanks! Here's a **refined and organized summary** of the **BDAT Architecture Domains** with a focus on **what each domain defines** — perfect for a **TOGAF® Foundation study cheat sheet**.
-
 ---
 
 # 🧠 TOGAF® BDAT Architecture Domains — What Each Domain Defines
@@ -255,7 +213,114 @@ Describes the foundational hardware and software infrastructure supporting the e
 
 ---
 
-![Business ARch](https://github.com/user-attachments/assets/1f386e52-9ee4-4352-ade7-1bc47ae98c6a)
 
-![appl](https://github.com/user-attachments/assets/021d9251-721d-472b-96f2-480f94b4487e)
+
+# 📊 **BDAT Matrix Examples (TOGAF)**
+
+BDAT = **Business, Data, Application, Technology**
+Matrices help show **relationships, dependencies, and gaps**.
+
+---
+
+## 1️⃣ **Business Capability ↔ Application Matrix**
+
+👉 *Very common in Phase B & Phase C*
+
+### **Purpose**
+
+* Shows which **applications support which business capabilities**
+* Helps identify **gaps, redundancies, or overlaps**
+
+### **Example**
+
+| Business Capability | CRM App | ERP App | Portal App |
+| ------------------- | ------- | ------- | ---------- |
+| Customer Management | ✔       | ❌       | ✔          |
+| Order Processing    | ❌       | ✔       | ✔          |
+| Billing             | ❌       | ✔       | ❌          |
+| Reporting           | ✔       | ✔       | ❌          |
+
+📌 **Insights**
+
+* CRM and ERP both support reporting → possible overlap
+* Billing depends only on ERP → risk if ERP changes
+
+---
+
+## 2️⃣ **Business Process ↔ Data Entity Matrix**
+
+👉 *Phase B & Phase C (Data Architecture)*
+
+### **Purpose**
+
+* Shows **which data is used/created by which business processes**
+* Helps in **data governance and ownership**
+
+### **Example**
+
+| Business Process  | Customer Data | Order Data | Payment Data |
+| ----------------- | ------------- | ---------- | ------------ |
+| Register Customer | C             | ❌          | ❌            |
+| Place Order       | R             | C          | ❌            |
+| Process Payment   | R             | R          | C            |
+| Generate Invoice  | R             | R          | R            |
+
+Legend:
+
+* **C** = Create
+* **R** = Read
+
+📌 **Insights**
+
+* Payment data is created only in one process
+* Clear ownership of data entities
+
+---
+
+## 3️⃣ **Application ↔ Data Matrix**
+
+👉 *Core Phase C artifact*
+
+### **Purpose**
+
+* Shows which **applications create or use data**
+* Identifies **master data systems**
+
+### **Example**
+
+| Application     | Customer Data | Order Data | Payment Data |
+| --------------- | ------------- | ---------- | ------------ |
+| CRM             | C             | R          | ❌            |
+| ERP             | R             | C          | C            |
+| Payment Gateway | ❌             | ❌          | C            |
+| BI Tool         | R             | R          | R            |
+
+📌 **Insights**
+
+* ERP is system of record for Order & Payment
+* CRM owns Customer data
+
+---
+
+## 4️⃣ **Application ↔ Technology Matrix**
+
+👉 *Phase D – Technology Architecture*
+
+### **Purpose**
+
+* Shows **technology stack used by applications**
+* Helps with **standardization and risk analysis**
+
+### **Example**
+
+| Application | OS      | Database   | Cloud Platform |
+| ----------- | ------- | ---------- | -------------- |
+| CRM         | Linux   | MySQL      | AWS            |
+| ERP         | Linux   | Oracle     | On-Prem        |
+| Portal      | Windows | PostgreSQL | Azure          |
+
+📌 **Insights**
+
+* Multiple databases → complexity
+* Hybrid cloud environment
 
