@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TOGAF Part 1 MCQ Quiz</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 20px;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .mode-select {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .question {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  .explanation {
+    margin-top: 10px;
+    padding: 10px;
+    background: #eef6ff;
+    border-left: 4px solid #007acc;
+    display: none;
+  }
+  button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 30px;
+    font-size: 16px;
+    background: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #005fa3;
+  }
+  #result {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+</style>
+</head>
+
+<body>
+<div class="container">
+  <h1>TOGAF® Part 1 – MCQ Quiz</h1>
+
+  <!-- MODE SELECTION -->
+  <div class="mode-select">
+    <label>
+      <input type="radio" name="mode" value="practice" checked>
+      Practice Mode
+    </label>
+    &nbsp;&nbsp;
+    <label>
+      <input type="radio" name="mode" value="exam">
+      Exam Mode
+    </label>
+  </div>
+
+  <!-- QUESTION 1 -->
+  <div class="question">
+    <h3>1. TOGAF covers four architecture domains. Which one completes the list?</h3>
+    <label><input type="radio" name="q1" value="A"> Business</label>
+    <label><input type="radio" name="q1" value="B"> Capability</label>
+    <label><input type="radio" name="q1" value="C"> Transformation</label>
+    <label><input type="radio" name="q1" value="D"> Transition</label>
+
+    <div class="explanation" id="exp-q1">
+      ✅ <b>Correct Answer:</b> Business<br>
+      TOGAF defines four domains: Business, Data, Application, and Technology.
+    </div>
+  </div>
+
+  <!-- QUESTION 2 -->
+  <div class="question">
+    <h3>2. Where is practical guidance on how to apply TOGAF provided?</h3>
+    <label><input type="radio" name="q2" value="A"> TOGAF Fundamental Content</label>
+    <label><input type="radio" name="q2" value="B"> TOGAF Library</label>
+    <label><input type="radio" name="q2" value="C"> TOGAF Series Guides</label>
+    <label><input type="radio" name="q2" value="D"> ADM Techniques</label>
+
+    <div class="explanation" id="exp-q2">
+      ✅ <b>Correct Answer:</b> TOGAF Series Guides<br>
+      Series Guides provide practical, how-to guidance for applying TOGAF.
+    </div>
+  </div>
+
+  <!-- QUESTION 3 -->
+  <div class="question">
+    <h3>3. What are the levels of the Architecture Landscape?</h3>
+    <label><input type="radio" name="q3" value="A"> Baseline, Transition, Target</label>
+    <label><input type="radio" name="q3" value="B"> Business, Data, Application, Technology</label>
+    <label><input type="radio" name="q3" value="C"> Capability, Segment, Strategic</label>
+    <label><input type="radio" name="q3" value="D"> Foundation, Common, Solution</label>
+
+    <div class="explanation" id="exp-q3">
+      ✅ <b>Correct Answer:</b> Foundation, Common, Solution<br>
+      These represent reusable levels across the enterprise.
+    </div>
+  </div>
+
+  <button onclick="submitQuiz()">Submit</button>
+
+  <div id="result"></div>
+</div>
+
+<script>
+function submitQuiz() {
+
+  const mode = document.querySelector('input[name="mode"]:checked').value;
+
+  const answers = {
+    q1: "A",
+    q2: "C",
+    q3: "D"
+    // Extend up to q40
+  };
+
+  let score = 0;
+  let total = 40; // Exam standard
+  let attempted = Object.keys(answers).length;
+
+  for (let q in answers) {
+    const selected = document.querySelector(`input[name="${q}"]:checked`);
+    const explanation = document.getElementById(`exp-${q}`);
+
+    if (selected && selected.value === answers[q]) {
+      score++;
+      if (mode === "practice") {
+        explanation.style.display = "block";
+      }
+    } else {
+      if (mode === "practice") {
+        explanation.style.display = "block";
+      }
+    }
+  }
+
+  if (mode === "exam") {
+    document.querySelectorAll(".explanation").forEach(e => e.style.display = "none");
+  }
+
+  let passMark = 24;
+  let resultText = `Score: ${score} / ${total}<br>`;
+
+  resultText += score >= passMark
+    ? "✅ <span style='color:green'>PASS</span>"
+    : "❌ <span style='color:red'>FAIL</span>";
+
+  document.getElementById("result").innerHTML = resultText;
+}
+</script>
+
+</body>
+</html>
