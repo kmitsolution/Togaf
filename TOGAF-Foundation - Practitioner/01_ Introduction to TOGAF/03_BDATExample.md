@@ -1,9 +1,7 @@
-e
 # 🛵 BDAT Case Study: **FoodieFast** — A Food Delivery Platform
 
 **Business Objective:**
 Expand FoodieFast’s reach with faster delivery, customer personalization, and scalable operations.
-
 ---
 
 ## 🏢 1. **Business Architecture Case Study**
