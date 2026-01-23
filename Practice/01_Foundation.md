@@ -2,149 +2,162 @@
 
 ### **1. What is the primary purpose of TOGAF?**
 
+```
 A. To design software applications
 B. To manage IT operations
 C. To provide a framework for Enterprise Architecture
 D. To replace project management frameworks
 
  **Answer:** C
-
+```
 ---
 
 ### **2. Which part of TOGAF provides a step-by-step method for developing architecture?**
 
+```
 A. Architecture Repository
 B. ADM
 C. TOGAF Library
 D. Enterprise Continuum
 
  **Answer:** B
-
+```
 ---
 
 ### **3. TOGAF is maintained by which organization?**
 
+```
 A. PMI
 B. ISO
 C. The Open Group
 D. Gartner
 
-✅ **Answer:** C
-
+ **Answer:** C
+```
 ---
 
 ## **ADM Phases**
 
 ### **4. Which ADM phase establishes the architecture capability?**
 
+```
 A. Phase A
 B. Preliminary Phase
 C. Phase B
 D. Phase H
 
-✅ **Answer:** B
-
+ **Answer:** B
+```
 ---
 
 ### **5. What is the primary purpose of Phase A?**
-
+```
 A. Define Business Architecture
 B. Define Technology Architecture
 C. Establish Architecture Vision
 D. Perform migration planning
 
-✅ **Answer:** C
-
+ **Answer:** C
+```
 ---
 
 ### **6. Which phase defines Business Architecture?**
 
+```
 A. Phase A
 B. Phase B
 C. Phase C
 D. Phase D
 
-✅ **Answer:** B
-
+ **Answer:** B
+```
 ---
 
 ### **7. Which ADM phase covers Data and Application Architecture?**
 
+```
 A. Phase B
 B. Phase C
 C. Phase D
 D. Phase E
 
-✅ **Answer:** B
-
+ **Answer:** B
+```
 ---
 
 ### **8. What is the focus of Phase D?**
 
+```
 A. Business capabilities
 B. Data models
 C. Technology infrastructure
 D. Migration planning
 
-✅ **Answer:** C
-
+**Answer:** C
+```
 ---
 
 ### **9. In which phase are solution options and work packages identified?**
 
+```
 A. Phase D
 B. Phase E
 C. Phase F
 D. Phase G
 
-✅ **Answer:** B
-
+ **Answer:** B
+```
 ---
 
 ### **10. Which phase produces a detailed migration plan?**
 
+```
 A. Phase E
 B. Phase F
 C. Phase G
 D. Phase H
 
-✅ **Answer:** B
-
+ **Answer:** B
+```
 ---
 
 ### **11. Which phase governs implementation to ensure compliance?**
 
+```
 A. Phase F
 B. Phase G
 C. Phase H
 D. Phase A
 
-✅ **Answer:** B
-
+ **Answer:** B
+```
 ---
 
 ### **12. Which phase manages architectural change after implementation?**
 
+```
 A. Phase G
 B. Phase F
 C. Phase H
 D. Phase A
 
-✅ **Answer:** C
+ **Answer:** C
 
+```
 ---
 
 ## **BDAT Domains**
 
 ### **13. What does BDAT stand for?**
 
+```
 A. Business, Design, Application, Technology
 B. Business, Data, Application, Technology
 C. Business, Delivery, Architecture, Tools
 D. Business, Data, Architecture, Testing
 
-✅ **Answer:** B
-
+ **Answer:** B
+```
 ---
 
 ### **14. Which domain defines business capabilities and processes?**
